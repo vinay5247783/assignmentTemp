@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body{
+	margin: 0 auto;
+	width: 70%;
+}
+.slider{
+	overflow: hidden;
+	height: 500px;
+}
+.slide figure div{
+	float: left;
+	width: 20%;
+}
+.slider figure img{
+	width: 100%;
+	float: left;
+}
+.slider figure{
+	position: relative;
+	width: 300%;
+	margin: 0px;
+	left: 0;
+	animation: 3s slide infinite;
+}
+@keyframes slide{
+	0%{
+		left: 0%;
+	}
+	33%{
+		left:0%;
+	}
+	34%{
+		left: -100%;
+	}
+	66%{
+		left: -100%;
+	}
+	67%{
+		left: -200%;
+	}
+	99%{
+		left: -200%;
+	}
+
+
+}

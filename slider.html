@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image slider</title>
+	<style >
+		body{
+			background-color: rgba(27,3,3,0.85);
+		}
+		h1{
+			font-size: 2.1rem;
+			line-height: 1.4;
+			letter-spacing: 0.5rem;
+			text-align: center;
+			color: white;
+			margin-top: 50ox;
+		}
+		.maindiv{
+			width: 70%;
+			height: 400px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			background-image: url('https://media.istockphoto.com/photos/christmas-lights-defocused-background-bokeh-gold-blue-picture-id877684562?k=6&m=877684562&s=612x612&w=0&h=-WOtRrbuLnM_GlnDT7sw22w-8vZz8aPFasiVgxSG_eY=');
+			background-size: 100% 100%;
+			box-shadow: 1px 2px 10px 5px white;
+		    animation: slider 9s infinite linear;
+		    }
+		    @keyframes slider{
+		    	0%{ background-image: url('https://media.istockphoto.com/photos/christmas-lights-defocused-background-bokeh-gold-blue-picture-id877684562?k=6&m=877684562&s=612x612&w=0&h=-WOtRrbuLnM_GlnDT7sw22w-8vZz8aPFasiVgxSG_eY='); }
+		    	35%{background-image: url('https://pia.ge/uploaded/pia/2017-12/2017120610515883114383.jpg');  }
+		    	75%{ background-image: url('https://ak7.picdn.net/shutterstock/videos/1008778427/thumb/1.jpg'); }
+		    }
+	</style>
+</head>
+<body>
+	<h1>Image Slider</h1>
+<div class="maindiv">
+	
+</div>
+
+</body>
+</html>
